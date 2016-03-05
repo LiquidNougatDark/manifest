@@ -10,10 +10,11 @@
   <remote  name="github"
            fetch="https://github.com/" />
 
-  <default revision="refs/tags/android-6.0.1_r13"
+  <default revision="refs/tags/android-6.0.1_r16"
            remote="aosp"
            sync-c="true"
            sync-j="8" />
+
   <project path="build" name="MallowRom/android_build" remote="github" revision="mm" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
