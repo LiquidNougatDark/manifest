@@ -419,8 +419,8 @@
   <project path="kernel/moto/shamu" name="B14CKB1RD-Kernel/B14CKB1RD_Kernel_N6" remote="github" revision="mm6.0" />
 
   <!-- Remotes -->
-  <project path="packages/apps/ThemeChooser" name="AOSIP/platform_packages_apps_ThemeChooser" remote="github" revision="mm6.0" />
-  <project path="packages/providers/ThemesProvider" name="AOSIP/platform_packages_providers_ThemesProvider" remote="github" revision="mm6.0" />
+  <project path="packages/apps/ThemeChooser" name="ScrewdAOSP/packages_apps_ThemeChooser" remote="github" revision="m" />
+  <project path="packages/providers/ThemesProvider" name="ScrewdAOSP/packages_providers_ThemesProvider" remote="github" revision="m" />
 
   <!-- Toolchains -->
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.3" name="xanaxdroid/arm-eabi-5.3" remote="bb" revision="sabermod" />
