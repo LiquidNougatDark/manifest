@@ -429,8 +429,8 @@
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="xanaxdroid/aarch64-linux-android-4.9" remote="bb" revision="sabermod" />
 
   <!-- Vendors -->
-  <project path="vendor/huawei" name="ScrewdAOSP/vendor_huawei" remote="github" revision="m" />
-  <project path="vendor/moto" name="ScrewdAOSP/proprietary_vendor_moto" remote="github" revision="m" /> 
+  <project path="vendor/huawei" name="PureNexusProject/proprietary_vendor_huawei" remote="github" revision="mm" />
+  <project path="vendor/moto" name="PureNexusProject/proprietary_vendor_moto" remote="github" revision="mm" />
   <project path="vendor/mallow" name="MallowRom/vendor_mallow" remote="github" revision="mm" />
 
 </manifest>
