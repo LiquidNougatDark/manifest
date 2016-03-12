@@ -419,7 +419,7 @@
   <project path="kernel/moto/shamu" name="B14CKB1RD-Kernel/B14CKB1RD_Kernel_N6" remote="github" revision="mm6.0" />
 
   <!-- Remotes -->
-  <project path="packages/apps/ThemeChooser" name="ScrewdAOSP/packages_apps_ThemeChooser" remote="github" revision="m" />
+  <project path="packages/apps/ThemeChooser" name="MallowRom/packages_apps_ThemeChooser" remote="github" revision="mm" />
   <project path="packages/providers/ThemesProvider" name="ScrewdAOSP/packages_providers_ThemesProvider" remote="github" revision="m" />
 
   <!-- Toolchains -->
