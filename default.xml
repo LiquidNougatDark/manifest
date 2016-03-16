@@ -259,7 +259,7 @@
   <project path="frameworks/opt/bluetooth" name="platform/frameworks/opt/bluetooth" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/opt/cards" name="ScrewdAOSP/frameworks_opt_cards" remote="github" revision="m" />
+  <project path="frameworks/opt/cards" name="MallowRom/frameworks_opt_cards" remote="github" revision="mm" />
   <project path="frameworks/opt/chips" name="platform/frameworks/opt/chips" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/colorpicker" name="platform/frameworks/opt/colorpicker" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/datetimepicker" name="platform/frameworks/opt/datetimepicker" groups="pdk-cw-fs,pdk-fs" />
@@ -421,7 +421,7 @@
 
   <!-- Remotes -->
   <project path="packages/apps/ThemeChooser" name="MallowRom/packages_apps_ThemeChooser" remote="github" revision="mm" />
-  <project path="packages/providers/ThemesProvider" name="ScrewdAOSP/packages_providers_ThemesProvider" remote="github" revision="m" />
+  <project path="packages/providers/ThemesProvider" name="MallowRom/packages_providers_ThemesProvider" remote="github" revision="mm" />
 
   <!-- Toolchains -->
   <project path="prebuilts/gcc/linux-x86/arm/aarch64-5.3" name="xanaxdroid/aarch64-5.3" remote="bb" revision="sabermod" />
