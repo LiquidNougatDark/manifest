@@ -323,7 +323,7 @@
   <project path="packages/apps/Dialer" name="MallowRom/packages_apps_Dialer" remote="github" revision="mm" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" groups="pdk-fs" />
   <project path="packages/apps/ExactCalculator" name="platform/packages/apps/ExactCalculator" groups="pdk-fs" />
-  <project path="packages/apps/Gallery" name="MallowRom/packages_apps_Gallery" remote="github" revision="mm" />
+  <project path="packages/apps/Gallery2" name="MallowRom/packages_apps_Gallery2" remote="github" revision="mm" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" groups="pdk-fs" />
   <project path="packages/apps/InCallUI" name="MallowRom/packages_apps_InCallUI" remote="github" revision="mm" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" groups="pdk-fs" />
