@@ -422,7 +422,7 @@
 
   <!-- Toolchains -->
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-5.3" name="xanaxdroid/aarch64-5.3" remote="bb" revision="sabermod" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.3" name="xanaxdroid/arm-eabi-5.3" remote="bb" revision="sabermod" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.3" name="REV3NT3CH/uber-arm-eabi-cortex-a15-5.3" remote="bb" revision="master" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-6.0" name="xanaxdroid/aarch64-6.0" remote="bb" revision="sabermod" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-6.0" name="xanaxdroid/arm-eabi-6.0" remote="bb" revision="sabermod" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.3" name="xanaxdroid/arm-linux-androideabi-5.3" remote="bb" revision="sabermod" />
