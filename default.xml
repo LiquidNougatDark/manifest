@@ -23,7 +23,7 @@
   <project path="bionic" name="MallowRom/bionic" remote="github" revision="mm" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" />
-  <project path="dalvik" name="MallowRom/dalvik" remote="github" revision="mm" />
+  <project path="dalvik" name="ScrewdAOSP/dalvik" remote="github" revision="m" />
   <project path="developers/build" name="platform/developers/build" />
   <project path="developers/docs" name="platform/developers/docs" />
   <project path="development" name="platform/development" groups="pdk-cw-fs,pdk-fs" />
@@ -52,7 +52,7 @@
   <project path="external/bzip2" name="platform/external/bzip2" groups="pdk" />
   <project path="external/cblas" name="platform/external/cblas" groups="pdk" />
   <project path="external/ceres-solver" name="platform/external/ceres-solver" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/chromium-libpac" name="BenzoRom/external_chromium-libpac" remote="github" revision="marshmallow" />
+  <project path="external/chromium-libpac" name="platform/external/chromium-libpac" groups="pdk" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" groups="pdk" />
   <project path="external/chromium-webview" name="BenzoRom/external_chromium-webview" remote="github" revision="marshmallow" />
   <project path="external/clang" name="platform/external/clang" groups="pdk" />
@@ -117,7 +117,7 @@
   <project path="external/jline" name="platform/external/jline" groups="notdefault,tradefed" />
   <project path="external/jmdns" name="platform/external/jmdns" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/jmonkeyengine" name="platform/external/jmonkeyengine" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/jpeg" name="MallowRom/external_jpeg" remote="github" revision="mm" />
+  <project path="external/jpeg" name="platform/external/jpeg" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/jsilver" name="platform/external/jsilver" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/jsmn" name="platform/external/jsmn" groups="pdk" />
   <project path="external/jsoncpp" name="platform/external/jsoncpp" groups="pdk-cw-fs,pdk-fs" />
@@ -229,7 +229,7 @@
   <project path="external/tinyxml2" name="platform/external/tinyxml2" groups="pdk" />
   <project path="external/toybox" name="platform/external/toybox" groups="pdk" />
   <project path="external/tremolo" name="platform/external/tremolo" groups="pdk" />
-  <project path="external/v8" name="MallowRom/external_v8" remote="github" revision="mm" />
+  <project path="external/v8" name="ScrewdAOSP/external_v8" remote="github" revision="m" />
   <project path="external/valgrind" name="platform/external/valgrind" groups="pdk" />
   <project path="external/vboot_reference" name="platform/external/vboot_reference" groups="vboot" />
   <project path="external/vixl" name="platform/external/vixl" groups="pdk" />
@@ -308,13 +308,12 @@
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" groups="omap3" />
   <project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" groups="omap4-aah" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" groups="omap4" />
-  <project path="libcore" name="MallowRom/libcore" remote="github" revision="mm" />
+  <project path="libcore" name="ScrewdAOSP/libcore" remote="github" revision="m" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
   <project path="ndk" name="platform/ndk" groups="generic_fs" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Bluetooth" name="MallowRom/packages_apps_Bluetooth" remote="github" revision="mm" />
   <project path="packages/apps/Browser" name="MallowRom/packages_apps_Browser" remote="github" revision="mm" />
-  <project path="packages/apps/Calendar" name="MallowRom/packages_apps_Calendar" remote="github" revision="mm" />
   <project path="packages/apps/CarrierConfig" name="platform/packages/apps/CarrierConfig" groups="pdk-fs" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" groups="pdk-fs" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs,pdk-fs" />
@@ -387,7 +386,7 @@
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" />
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
   <project path="system/media" name="platform/system/media" groups="pdk" />
-  <project path="system/netd" name="MallowRom/system_netd" remote="github" revision="mm" />
+  <project path="system/netd" name="platform/system/netd" groups="pdk" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
   <project path="system/vold" name="platform/system/vold" groups="pdk" />
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" />
