@@ -441,7 +441,7 @@
   <project path="packages/providers/ThemesProvider" name="MallowRom/packages_providers_ThemesProvider" remote="github" revision="mm" />
 
   <!-- Mallow Vendors -->
-  <project path="vendor/huawei" name="PureNexusProject/proprietary_vendor_huawei" remote="github" revision="mm" />
+  <project path="vendor/huawei" name="BenzoRom64/vendor_huawei_angler" remote="github" revision="marshmallow" />
   <project path="vendor/moto" name="PureNexusProject/proprietary_vendor_moto" remote="github" revision="mm" />
   <project path="vendor/mallow" name="MallowRom/vendor_mallow" remote="github" revision="mm" />
 
