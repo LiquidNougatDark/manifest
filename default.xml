@@ -52,7 +52,7 @@
   <project path="external/boringssl" name="platform/external/boringssl" groups="pdk" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" groups="pdk" />
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" />
-  <project path="external/busybox" name="PureNexusProject/android_external_busybox" remote="github" revision="mm" />
+  <project path="external/busybox" name="PureNexusProject/android_external_busybox" remote="github" revision="mm2" />
   <project path="external/bzip2" name="platform/external/bzip2" groups="pdk" />
   <project path="external/cblas" name="platform/external/cblas" groups="pdk" />
   <project path="external/ceres-solver" name="platform/external/ceres-solver" groups="pdk-cw-fs,pdk-fs" />
@@ -439,7 +439,7 @@
 
   <!-- Mallow Vendors -->
   <project path="vendor/huawei" name="BenzoRom64/vendor_huawei_angler" remote="github" revision="marshmallow" />
-  <project path="vendor/moto" name="PureNexusProject/proprietary_vendor_moto" remote="github" revision="mm" />
+  <project path="vendor/moto" name="PureNexusProject/proprietary_vendor_moto" remote="github" revision="mm2" />
   <project path="vendor/mallow" name="MallowRom/vendor_mallow" remote="github" revision="mm" />
 
 </manifest>
