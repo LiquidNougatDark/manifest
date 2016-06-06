@@ -15,7 +15,7 @@
            sync-c="true"
            sync-j="8" />
 
-  <project path="build" name="MallowRom/android_build" remote="github" revision="mm" >
+  <project path="build" name="MallowRom/build" remote="github" revision="mm" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
