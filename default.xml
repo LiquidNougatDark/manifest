@@ -439,6 +439,6 @@
   <!-- Mallow Vendors -->
   <project path="vendor/huawei" name="PureNexusProject/proprietary_vendor_huawei" remote="github" revision="mm2" />
   <project path="vendor/moto" name="PureNexusProject/proprietary_vendor_moto" remote="github" revision="mm2" />
-  <project path="vendor/mallow" name="MallowRom/vendor_mallow" remote="github" revision="mm" />
+  <project path="vendor/mallow" name="MallowRom/vendor" remote="github" revision="mm" />
 
 </manifest>
