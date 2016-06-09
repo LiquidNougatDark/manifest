@@ -13,7 +13,7 @@ Initialize Source
 (Assuming you have a valid build environment setup)
 - mkdir mallow (or whatever you want to name the source folder)
 - cd ~/mallow
-- repo init -u https://github.com/MallowRom/android_manifest.git -b mm
+- repo init -u https://github.com/MallowRom/manifest.git -b mm
 
 Sync Source
 --------------------
