@@ -15,15 +15,15 @@
            sync-c="true"
            sync-j="8" />
 
-  <project path="build" name="MallowRom/build" remote="github" revision="mm" >
+  <project path="build" name="LiquidMallow/build" remote="github" revision="mm" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
-  <project path="art" name="MallowRom/art" remote="github" revision="mm" />
-  <project path="bionic" name="MallowRom/bionic" remote="github" revision="mm" />
+  <project path="art" name="LiquidMallow/art" remote="github" revision="mm" />
+  <project path="bionic" name="LiquidMallow/bionic" remote="github" revision="mm" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" />
-  <project path="dalvik" name="MallowRom/dalvik" remote="github" revision="mm" />
+  <project path="dalvik" name="LiquidMallow/dalvik" remote="github" revision="mm" />
   <project path="developers/build" name="platform/developers/build" />
   <project path="developers/demos" name="platform/developers/demos" />
   <project path="developers/docs" name="platform/developers/docs" />
@@ -40,7 +40,7 @@
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
   <project path="external/android-clat" name="platform/external/android-clat" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/android-mock" name="platform/external/android-mock" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/android-visualizer" name="MallowRom/external_android-visualizer" remote="github" revision="mm" />
+  <project path="external/android-visualizer" name="LiquidMallow/external_android-visualizer" remote="github" revision="mm" />
   <project path="external/androidplot" name="platform/external/androidplot" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/ant-glob" name="platform/external/ant-glob" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/antlr" name="platform/external/antlr" groups="pdk-cw-fs,pdk-fs" />
@@ -103,7 +103,7 @@
   <project path="external/google-tv-pairing-protocol" name="platform/external/google-tv-pairing-protocol" groups="pdk-fs" />
   <project path="external/gptfdisk" name="platform/external/gptfdisk" groups="pdk-fs" />
   <project path="external/gtest" name="platform/external/gtest" groups="pdk" />
-  <project path="external/guava" name="MallowRom/external_guava" remote="github" revision="mm" />
+  <project path="external/guava" name="LiquidMallow/external_guava" remote="github" revision="mm" />
   <project path="external/hamcrest" name="platform/external/hamcrest" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/harfbuzz_ng" name="platform/external/harfbuzz_ng" groups="pdk,qcom_msm8x26" />
   <project path="external/hyphenation-patterns" name="platform/external/hyphenation-patterns" groups="pdk-fs" />
@@ -123,7 +123,7 @@
   <project path="external/jline" name="platform/external/jline" groups="notdefault,tradefed" />
   <project path="external/jmdns" name="platform/external/jmdns" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/jmonkeyengine" name="platform/external/jmonkeyengine" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/jpeg" name="MallowRom/external_jpeg" remote="github" revision="mm" />
+  <project path="external/jpeg" name="LiquidMallow/external_jpeg" remote="github" revision="mm" />
   <project path="external/jsilver" name="platform/external/jsilver" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/jsmn" name="platform/external/jsmn" groups="pdk" />
   <project path="external/jsoncpp" name="platform/external/jsoncpp" groups="pdk-cw-fs,pdk-fs" />
@@ -150,7 +150,7 @@
   <project path="external/libopus" name="platform/external/libopus" groups="pdk" />
   <project path="external/libpcap" name="platform/external/libpcap" groups="pdk,pdk-cw-fs,pdk-fs" />
   <project path="external/libphonenumber" name="platform/external/libphonenumber" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/libpng" name="MallowRom/external_libpng" remote="github" revision="mm" />
+  <project path="external/libpng" name="LiquidMallow/external_libpng" remote="github" revision="mm" />
   <project path="external/libseccomp-helper" name="platform/external/libseccomp-helper" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/libselinux" name="platform/external/libselinux" groups="pdk" />
   <project path="external/libssh2" name="platform/external/libssh2" groups="pdk-cw-fs,pdk-fs" />
@@ -168,7 +168,7 @@
   <project path="external/littlemock" name="platform/external/littlemock" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/lld" name="platform/external/lld" groups="pdk-fs" />
   <project path="external/lldb" name="platform/external/lldb" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/llvm" name="MallowRom/external_llvm"  remote="github" revision="mm" />
+  <project path="external/llvm" name="LiquidMallow/external_llvm"  remote="github" revision="mm" />
   <project path="external/ltrace" name="platform/external/ltrace" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/lz4" name="platform/external/lz4" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/lzma" name="platform/external/lzma" groups="pdk" />
@@ -213,15 +213,15 @@
   <project path="external/safe-iop" name="platform/external/safe-iop" groups="pdk" />
   <project path="external/scrypt" name="platform/external/scrypt" groups="pdk" />
   <project path="external/selinux" name="platform/external/selinux" groups="pdk" />
-  <project path="external/sepolicy" name="MallowRom/external_sepolicy" remote="github" revision="mm" />
+  <project path="external/sepolicy" name="LiquidMallow/external_sepolicy" remote="github" revision="mm" />
   <project path="external/sfntly" name="platform/external/sfntly" groups="pdk,qcom_msm8x26" />
-  <project path="external/skia" name="MallowRom/external_skia" remote="github" revision="mm" />
+  <project path="external/skia" name="LiquidMallow/external_skia" remote="github" revision="mm" />
   <project path="external/slf4j" name="platform/external/slf4j" groups="pdk-fs" />
   <project path="external/smali" name="platform/external/smali" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/sonic" name="platform/external/sonic" groups="pdk" />
   <project path="external/sonivox" name="platform/external/sonivox" groups="pdk" />
-  <project path="external/speex" name="MallowRom/external_speex" remote="github" revision="mm" />
-  <project path="external/sqlite" name="MallowRom/external_sqlite" remote="github" revision="mm" />
+  <project path="external/speex" name="LiquidMallow/external_speex" remote="github" revision="mm" />
+  <project path="external/sqlite" name="LiquidMallow/external_sqlite" remote="github" revision="mm" />
   <project path="external/squashfs-tools" name="platform/external/squashfs-tools" groups="pdk" />
   <project path="external/srtp" name="platform/external/srtp" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/strace" name="platform/external/strace" groups="pdk-cw-fs,pdk-fs" />
@@ -235,7 +235,7 @@
   <project path="external/tinyxml2" name="platform/external/tinyxml2" groups="pdk" />
   <project path="external/toybox" name="platform/external/toybox" groups="pdk" />
   <project path="external/tremolo" name="platform/external/tremolo" groups="pdk" />
-  <project path="external/v8" name="MallowRom/external_v8" remote="github" revision="mm" />
+  <project path="external/v8" name="LiquidMallow/external_v8" remote="github" revision="mm" />
   <project path="external/valgrind" name="platform/external/valgrind" groups="pdk" />
   <project path="external/vboot_reference" name="platform/external/vboot_reference" groups="vboot" />
   <project path="external/vixl" name="platform/external/vixl" groups="pdk" />
@@ -248,8 +248,8 @@
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/av" name="MallowRom/frameworks_av" remote="github" revision="mm" />
-  <project path="frameworks/base" name="MallowRom/frameworks_base" remote="github" revision="mm" />
+  <project path="frameworks/av" name="LiquidMallow/frameworks_av" remote="github" revision="mm" />
+  <project path="frameworks/base" name="LiquidMallow/frameworks_base" remote="github" revision="mm" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -258,7 +258,7 @@
   <project path="frameworks/minikin" name="platform/frameworks/minikin" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/ml" name="platform/frameworks/ml" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/multidex" name="platform/frameworks/multidex" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/native" name="MallowRom/frameworks_native" remote="github" revision="mm" />
+  <project path="frameworks/native" name="LiquidMallow/frameworks_native" remote="github" revision="mm" />
   <project path="frameworks/opt/bitmap" name="platform/frameworks/opt/bitmap" groups="pdk-fs" />
   <project path="frameworks/opt/bluetooth" name="platform/frameworks/opt/bluetooth" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" groups="pdk-cw-fs,pdk-fs" />
@@ -273,15 +273,15 @@
   <project path="frameworks/opt/net/ethernet" name="platform/frameworks/opt/net/ethernet" groups="pdk-fs" />
   <project path="frameworks/opt/net/ims" name="platform/frameworks/opt/net/ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/opt/net/wifi" name="MallowRom/frameworks_opt_net_wifi" remote="github" revision="mm" />
+  <project path="frameworks/opt/net/wifi" name="LiquidMallow/frameworks_opt_net_wifi" remote="github" revision="mm" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/setupwizard" name="platform/frameworks/opt/setupwizard" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/opt/telephony" name="MallowRom/frameworks_opt_telephony" remote="github" revision="mm" />
+  <project path="frameworks/opt/telephony" name="LiquidMallow/frameworks_opt_telephony" remote="github" revision="mm" />
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/widget" name="platform/frameworks/opt/widget" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/rs" name="MallowRom/frameworks_rs" remote="github" revision="mm" />
-  <project path="frameworks/support" name="MallowRom/frameworks_support" remote="github" revision="mm" />
+  <project path="frameworks/rs" name="LiquidMallow/frameworks_rs" remote="github" revision="mm" />
+  <project path="frameworks/support" name="LiquidMallow/frameworks_support" remote="github" revision="mm" />
   <project path="frameworks/data-binding" name="platform/frameworks/data-binding" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/volley" name="platform/frameworks/volley" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/webview" name="platform/frameworks/webview" groups="pdk-cw-fs,pdk-fs" />
@@ -297,7 +297,7 @@
   <project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" groups="qcom,qcom_audio" />
   <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom" />
   <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" groups="qcom" />
-  <project path="hardware/qcom/display" name="MallowRom/hardware_qcom_display" remote="github" revision="mm" />
+  <project path="hardware/qcom/display" name="LiquidMallow/hardware_qcom_display" remote="github" revision="mm" />
   <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" groups="qcom,qcom_gps" />
   <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" groups="qcom,qcom_keymaster" />
   <project path="hardware/qcom/media" name="platform/hardware/qcom/media" groups="qcom" />
@@ -314,61 +314,61 @@
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" groups="omap3" />
   <project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" groups="omap4-aah" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" groups="omap4" />
-  <project path="libcore" name="MallowRom/libcore" remote="github" revision="mm" />
+  <project path="libcore" name="LiquidMallow/libcore" remote="github" revision="mm" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
   <project path="ndk" name="platform/ndk" groups="generic_fs" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/apps/Bluetooth" name="MallowRom/packages_apps_Bluetooth" remote="github" revision="mm" />
-  <project path="packages/apps/Browser" name="MallowRom/packages_apps_Browser" remote="github" revision="mm" />
+  <project path="packages/apps/Bluetooth" name="LiquidMallow/packages_apps_Bluetooth" remote="github" revision="mm" />
+  <project path="packages/apps/Browser" name="LiquidMallow/packages_apps_Browser" remote="github" revision="mm" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" groups="pdk-fs" />
   <project path="packages/apps/Camera2" name="platform/packages/apps/Camera2" groups="pdk-fs" />
   <project path="packages/apps/CarrierConfig" name="platform/packages/apps/CarrierConfig" groups="pdk-fs" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" groups="pdk-fs" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/apps/Contacts" name="MallowRom/packages_apps_Contacts" remote="github" revision="mm" />
-  <project path="packages/apps/ContactsCommon" name="MallowRom/packages_apps_ContactsCommon" remote="github" revision="mm" />
-  <project path="packages/apps/Dialer" name="MallowRom/packages_apps_Dialer" remote="github" revision="mm" />
+  <project path="packages/apps/Contacts" name="LiquidMallow/packages_apps_Contacts" remote="github" revision="mm" />
+  <project path="packages/apps/ContactsCommon" name="LiquidMallow/packages_apps_ContactsCommon" remote="github" revision="mm" />
+  <project path="packages/apps/Dialer" name="LiquidMallow/packages_apps_Dialer" remote="github" revision="mm" />
   <project path="packages/apps/ExactCalculator" name="platform/packages/apps/ExactCalculator" groups="pdk-fs" />
-  <project path="packages/apps/Gallery2" name="MallowRom/packages_apps_Gallery2" remote="github" revision="mm" />
+  <project path="packages/apps/Gallery2" name="LiquidMallow/packages_apps_Gallery2" remote="github" revision="mm" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" groups="pdk-fs" />
-  <project path="packages/apps/InCallUI" name="MallowRom/packages_apps_InCallUI" remote="github" revision="mm" />
+  <project path="packages/apps/InCallUI" name="LiquidMallow/packages_apps_InCallUI" remote="github" revision="mm" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" groups="pdk-fs" />
   <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" groups="pdk-fs" />
   <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" groups="pdk-fs" />
-  <project path="packages/apps/Messaging" name="MallowRom/packages_apps_Messaging" remote="github" revision="mm" />
-  <project path="packages/apps/Nfc" name="MallowRom/packages_apps_Nfc" remote="github" revision="mm" />
+  <project path="packages/apps/Messaging" name="LiquidMallow/packages_apps_Messaging" remote="github" revision="mm" />
+  <project path="packages/apps/Nfc" name="LiquidMallow/packages_apps_Nfc" remote="github" revision="mm" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" groups="pdk-fs" />
-  <project path="packages/apps/PackageInstaller" name="MallowRom/packages_apps_PackageInstaller" remote="github" revision="mm" />
+  <project path="packages/apps/PackageInstaller" name="LiquidMallow/packages_apps_PackageInstaller" remote="github" revision="mm" />
   <project path="packages/apps/Phone" name="platform/packages/apps/Phone" groups="pdk-fs" />
-  <project path="packages/apps/PhoneCommon" name="MallowRom/packages_apps_PhoneCommon" remote="github" revision="mm" />
-  <project path="packages/apps/Settings" name="MallowRom/packages_apps_Settings" remote="github" revision="mm" />
+  <project path="packages/apps/PhoneCommon" name="LiquidMallow/packages_apps_PhoneCommon" remote="github" revision="mm" />
+  <project path="packages/apps/Settings" name="LiquidMallow/packages_apps_Settings" remote="github" revision="mm" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" groups="pdk-fs" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" groups="pdk-fs" />
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" groups="pdk-fs" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" groups="apps_stk,pdk-fs" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" groups="pdk-fs" />
   <project path="packages/apps/Terminal" name="platform/packages/apps/Terminal" groups="pdk-fs" />
-  <project path="packages/apps/ThemeChooser" name="MallowRom/packages_apps_ThemeChooser" remote="github" revision="mm" />
+  <project path="packages/apps/ThemeChooser" name="LiquidMallow/packages_apps_ThemeChooser" remote="github" revision="mm" />
   <project path="packages/apps/TvSettings" name="platform/packages/apps/TvSettings" groups="generic_fs" />
   <project path="packages/apps/UnifiedEmail" name="platform/packages/apps/UnifiedEmail" groups="pdk-fs" />
-  <project path="packages/apps/Viper4Android" name="MallowRom/packages_apps_Viper4Android" remote="github" revision="mm" />
+  <project path="packages/apps/Viper4Android" name="LiquidMallow/packages_apps_Viper4Android" remote="github" revision="mm" />
   <project path="packages/experimental" name="platform/packages/experimental" />
-  <project path="packages/inputmethods/LatinIME" name="MallowRom/packages_inputmethods_LatinIME" remote="github" revision="mm" />
+  <project path="packages/inputmethods/LatinIME" name="LiquidMallow/packages_inputmethods_LatinIME" remote="github" revision="mm" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" groups="pdk-fs" />
   <project path="packages/providers/BookmarkProvider" name="platform/packages/providers/BookmarkProvider" groups="pdk-fs" />
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/providers/CallLogProvider" name="platform/packages/providers/CallLogProvider" groups="pdk-fs" />
   <project path="packages/providers/ContactsProvider" name="platform/packages/providers/ContactsProvider" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/providers/DownloadProvider" name="MallowRom/packages_providers_DownloadProvider" remote="github" revision="mm" />
-  <project path="packages/providers/MediaProvider" name="MallowRom/packages_providers_MediaProvider" remote="github" revision="mm" />
+  <project path="packages/providers/DownloadProvider" name="LiquidMallow/packages_providers_DownloadProvider" remote="github" revision="mm" />
+  <project path="packages/providers/MediaProvider" name="LiquidMallow/packages_providers_MediaProvider" remote="github" revision="mm" />
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" groups="pdk-fs" />
-  <project path="packages/providers/TelephonyProvider" name="MallowRom/packages_providers_TelephonyProvider" remote="github" revision="mm" />
-  <project path="packages/providers/ThemesProvider" name="MallowRom/packages_providers_ThemesProvider" remote="github" revision="mm" />
+  <project path="packages/providers/TelephonyProvider" name="LiquidMallow/packages_providers_TelephonyProvider" remote="github" revision="mm" />
+  <project path="packages/providers/ThemesProvider" name="LiquidMallow/packages_providers_ThemesProvider" remote="github" revision="mm" />
   <project path="packages/providers/TvProvider" name="platform/packages/providers/TvProvider" groups="pdk-fs" />
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/services/Mms" name="platform/packages/services/Mms" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/services/Telecomm" name="MallowRom/packages_services_Telecomm" remote="github" revision="mm" />
-  <project path="packages/services/Telephony" name="MallowRom/packages_services_Telephony" remote="github" revision="mm" />
+  <project path="packages/services/Telecomm" name="LiquidMallow/packages_services_Telecomm" remote="github" revision="mm" />
+  <project path="packages/services/Telephony" name="LiquidMallow/packages_services_Telephony" remote="github" revision="mm" />
   <project path="packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" groups="pdk-fs" />
   <project path="pdk" name="platform/pdk" groups="pdk" />
   <project path="platform_testing" name="platform/platform_testing" />
@@ -386,15 +386,15 @@
   <project path="prebuilts/libs/libedit" name="platform/prebuilts/libs/libedit" groups="pdk-cw-fs,pdk-fs" />
   <project path="prebuilts/maven_repo/android" name="platform/prebuilts/maven_repo/android" groups="pdk-cw-fs,pdk-fs" />
   <project path="prebuilts/misc" name="platform/prebuilts/misc" groups="pdk" />
-  <project path="prebuilts/ndk" name="MallowRom/prebuilts_ndk" remote="github" revision="mm" />
+  <project path="prebuilts/ndk" name="LiquidMallow/prebuilts_ndk" remote="github" revision="mm" />
   <project path="prebuilts/python/linux-x86/2.7.5" name="platform/prebuilts/python/linux-x86/2.7.5" groups="linux,pdk,pdk-cw-fs,pdk-fs" />
   <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" groups="pdk" clone-depth="1" />
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs,pdk-fs" />
   <project path="system/bt" name="platform/system/bt" groups="pdk" />
-  <project path="system/core" name="MallowRom/system_core" remote="github" revision="mm" />
-  <project path="system/extras" name="MallowRom/system_extras" remote="github" revision="mm" />
+  <project path="system/core" name="LiquidMallow/system_core" remote="github" revision="mm" />
+  <project path="system/extras" name="LiquidMallow/system_extras" remote="github" revision="mm" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" />
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
   <project path="system/media" name="platform/system/media" groups="pdk" />
@@ -426,8 +426,8 @@
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="DespairFactor/aarch64-linux-android-4.9" remote="bb" revision="master" />
 
   <!-- Mallow Devices -->
-  <project path="device/huawei/angler" name="MallowRom/device_huawei_angler" remote="github" revision="mm" />
-  <project path="device/moto/shamu" name="MallowRom/device_moto_shamu" remote="github" revision="mm" />
+  <project path="device/huawei/angler" name="LiquidMallow/device_huawei_angler" remote="github" revision="mm" />
+  <project path="device/moto/shamu" name="LiquidMallow/device_moto_shamu" remote="github" revision="mm" />
 
   <!-- Mallow Kernels -->
   <project path="kernel/huawei/angler" name="saberCore/saberCore64" remote="github" revision="saberTest-stealth" />
@@ -436,6 +436,6 @@
   <!-- Mallow Vendors -->
   <project path="vendor/huawei" name="ScrewdAOSP/proprietary_vendor_huawei" remote="github" revision="m" />
   <project path="vendor/moto" name="ScrewdAOSP/proprietary_vendor_moto" remote="github" revision="m" />
-  <project path="vendor/mallow" name="MallowRom/vendor" remote="github" revision="mm" />
+  <project path="vendor/mallow" name="LiquidMallow/vendor" remote="github" revision="mm" />
 
 </manifest>
