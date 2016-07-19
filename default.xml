@@ -363,7 +363,7 @@
   <project path="packages/providers/MediaProvider" name="LiquidMallow/packages_providers_MediaProvider" remote="github" revision="mm" />
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" groups="pdk-fs" />
   <project path="packages/providers/TelephonyProvider" name="LiquidMallow/packages_providers_TelephonyProvider" remote="github" revision="mm" />
-  <project path="packages/providers/ThemesProvider" name="LiquidMallow/packages_providers_ThemesProvider" remote="github" revision="mm" />
+  <project path="packages/providers/ThemesProvider" name="ScrewdAOSP/packages_providers_ThemesProvider" remote="github" revision="m" />
   <project path="packages/providers/TvProvider" name="platform/packages/providers/TvProvider" groups="pdk-fs" />
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/services/Mms" name="platform/packages/services/Mms" groups="pdk-cw-fs,pdk-fs" />
