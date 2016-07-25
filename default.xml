@@ -417,13 +417,13 @@
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 
   <!-- Dragon Toolchain -->
-  <project path="prebuilts/clang/linux-x86/host/3.9" name="f100cleveland/dragontc-3.9" groups="pdk,linux" remote="bb" revision="master" />
+  <project path="prebuilts/clang/linux-x86/host/3.9" name="xanaxdroid/dragontc-3.9" remote="bb" revision="dragontc" />
 
   <!-- UBER Toolchains -->
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-6.1" name="DespairFactor/arm-eabi-6.x" remote="bb" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-6.1" name="DespairFactor/aarch64-linux-android-6.x-kernel" remote="bb" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.4" name="DespairFactor/arm-linux-androideabi-5.x" remote="bb" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="DespairFactor/aarch64-linux-android-4.9" remote="bb" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-7.0" name="xanaxdroid/arm-eabi-7.0" remote="bb" revision="sabermod" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-7.0" name="xanaxdroid/aarch64-7.0" remote="bb" revision="sabermod" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.4" name="xanaxdroid/arm-linux-androideabi-5.4" remote="bb" revision="sabermod" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="xanaxdroid/aarch64-linux-android-4.9" remote="bb" revision="sabermod" />
 
   <!-- Mallow Devices -->
   <project path="device/huawei/angler" name="LiquidMallow/device_huawei_angler" remote="github" revision="mm" />
