@@ -417,7 +417,7 @@
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 
   <!-- Dragon Toolchain -->
-  <project path="prebuilts/clang/linux-x86/host/3.9" name="xanaxdroid/dragontc-3.9" remote="bb" revision="dragontc" />
+  <project path="prebuilts/clang/linux-x86/host/4.0" name="xanaxdroid/dragontc-4.0" remote="bb" revision="dragontc" />
 
   <!-- UBER Toolchains -->
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-7.0" name="xanaxdroid/arm-eabi-7.0" remote="bb" revision="sabermod" />
