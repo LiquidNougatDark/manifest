@@ -419,11 +419,11 @@
   <!-- Dragon Toolchain -->
   <project path="prebuilts/clang/linux-x86/host/4.0" name="xanaxdroid/dragontc-4.0" remote="bb" revision="dragontc" />
 
-  <!-- UBER Toolchains -->
+  <!-- Benzo Toolchains -->
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-7.0" name="xanaxdroid/arm-eabi-7.0" remote="bb" revision="sabermod" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-7.0" name="xanaxdroid/aarch64-7.0" remote="bb" revision="sabermod" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.4" name="xanaxdroid/arm-linux-androideabi-5.4" remote="bb" revision="sabermod" />
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="xanaxdroid/aarch64-linux-android-4.9" remote="bb" revision="sabermod" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-6.1" name="xanaxdroid/arm-linux-androideabi-6.1" remote="bb" revision="sabermod" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-6.1" name="xanaxdroid/aarch64-linux-android-6.1" remote="bb" revision="sabermod" />
 
   <!-- Mallow Devices -->
   <project path="device/huawei/angler" name="LiquidMallow/device_huawei_angler" remote="github" revision="mm" />
