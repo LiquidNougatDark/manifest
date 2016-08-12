@@ -422,8 +422,8 @@
   <!-- Benzo Toolchains -->
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-7.0" name="xanaxdroid/arm-eabi-7.0" remote="bb" revision="sabermod" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-7.0" name="xanaxdroid/aarch64-7.0" remote="bb" revision="sabermod" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-6.1" name="xanaxdroid/arm-linux-androideabi-6.1" remote="bb" revision="sabermod" />
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-6.1" name="xanaxdroid/aarch64-linux-android-6.1" remote="bb" revision="sabermod" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-6.1" name="xanaxdroid/arm-linux-androideabi-6.1" remote="bb" revision="linaro" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-6.1" name="xanaxdroid/aarch64-linux-android-6.1" remote="bb" revision="linaro" />
 
   <!-- Mallow Devices -->
   <project path="device/huawei/angler" name="LiquidMallow/device_huawei_angler" remote="github" revision="mm" />
