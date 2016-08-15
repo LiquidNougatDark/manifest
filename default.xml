@@ -430,7 +430,7 @@
   <project path="device/moto/shamu" name="LiquidMallow/device_moto_shamu" remote="github" revision="mm" />
 
   <!-- Mallow Kernels -->
-  <project path="kernel/huawei/angler" name="Dabug123/owlCore64" remote="github" revision="saberTest-p-uber" />
+  <project path="kernel/huawei/angler" name="Dabug123/owlCore64" remote="github" revision="saberTest-p-linaro" />
   <project path="kernel/moto/shamu" name="B14CKB1RD-Kernel/B14CKB1RD_Kernel_N6" remote="github" revision="mm6.0" />
 
   <!-- Mallow Vendors -->
