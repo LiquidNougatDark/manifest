@@ -53,7 +53,7 @@
   <project path="external/boringssl" name="platform/external/boringssl" groups="pdk" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" groups="pdk" />
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" />
-  <project path="external/busybox" name="PureNexusProject/android_external_busybox" remote="github" revision="mm2" />
+  <project path="external/busybox" name="PureNexusProject-Legacy/android_external_busybox" remote="github" revision="mm2" />
   <project path="external/bzip2" name="platform/external/bzip2" groups="pdk" />
   <project path="external/cblas" name="platform/external/cblas" groups="pdk" />
   <project path="external/ceres-solver" name="platform/external/ceres-solver" groups="pdk-cw-fs,pdk-fs" />
@@ -263,7 +263,7 @@
   <project path="frameworks/opt/bluetooth" name="platform/frameworks/opt/bluetooth" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/opt/cards" name="PureNexusProject/android_frameworks_opt_cards" remote="github" revision="mm2" />
+  <project path="frameworks/opt/cards" name="PureNexusProject-Legacy/android_frameworks_opt_cards" remote="github" revision="mm2" />
   <project path="frameworks/opt/chips" name="platform/frameworks/opt/chips" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/colorpicker" name="platform/frameworks/opt/colorpicker" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/datetimepicker" name="platform/frameworks/opt/datetimepicker" groups="pdk-cw-fs,pdk-fs" />
@@ -287,7 +287,7 @@
   <project path="frameworks/webview" name="platform/frameworks/webview" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" groups="pdk-cw-fs,pdk-fs" />
   <project path="hardware/broadcom/libbt" name="platform/hardware/broadcom/libbt" groups="pdk" />
-  <project path="hardware/broadcom/wlan" name="PureNexusProject/android_hardware_broadcom_wlan" remote="github" revision="mm2" />
+  <project path="hardware/broadcom/wlan" name="PureNexusProject-Legacy/android_hardware_broadcom_wlan" remote="github" revision="mm2" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
   <project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" />
@@ -434,8 +434,8 @@
   <project path="kernel/moto/shamu" name="B14CKB1RD-Kernel/B14CKB1RD_Kernel_N6" remote="github" revision="mm6.0" />
 
   <!-- Mallow Vendors -->
-  <project path="vendor/huawei" name="PureNexusProject/proprietary_vendor_huawei" remote="github" revision="mm2" />
-  <project path="vendor/moto" name="PureNexusProject/proprietary_vendor_moto" remote="github" revision="mm2" />
+  <project path="vendor/huawei" name="PureNexusProject-Legacy/proprietary_vendor_huawei" remote="github" revision="mm2" />
+  <project path="vendor/moto" name="PureNexusProject-Legacy/proprietary_vendor_moto" remote="github" revision="mm2" />
   <project path="vendor/mallow" name="LiquidMallow/vendor" remote="github" revision="mm" />
 
 </manifest>
