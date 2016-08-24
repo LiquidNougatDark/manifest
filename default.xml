@@ -4,6 +4,17 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com/" />
 
+  <remote  name="github"
+           fetch="https://github.com/" />
+
+  <remote  name="mdalexca"
+           revision="master"
+           fetch="https://bitbucket.org/mdalexca/" />
+
+  <remote  name="nougat"
+           revision="ng"
+           fetch="https://github.com/LiquidNougat/" />
+
   <default revision="refs/tags/android-7.1.0_r7"
            remote="aosp"
            sync-c="true"
