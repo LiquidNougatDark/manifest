@@ -473,4 +473,9 @@
   <!-- UBER clang -->
   <project path="prebuilts/clang/host/linux-x86/uber-3.8" name="uberclang-3.8" remote="mdalexca" />
 
+  <!-- UBER tool chains -->
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-6.2" name="aarch64-linux-android-6.x-kernel-linaro" remote="mdalexca" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="aarch64-linux-android-4.9" remote="mdalexca" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="arm-linux-androideabi-4.9" remote="mdalexca" />
+
 </manifest>
