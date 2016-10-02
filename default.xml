@@ -463,4 +463,7 @@
   <!-- Angler device -->
   <project path="device/huawei/angler" name="device_huawei_angler" remote="nougat" />
 
+  <!-- Huawei vendor -->
+  <project path="vendor/huawei" name="UBERROMS/vendor_huawei" remote="github" revision="master" />
+
 </manifest>
