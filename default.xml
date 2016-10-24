@@ -470,4 +470,7 @@
   <!-- Kernel source -->
   <project path="kernel/huawei/angler" name="Flash-Kernel/angler" remote="github" revision="release" />
 
+  <!-- UBER clang -->
+  <project path="prebuilts/clang/host/linux-x86/uber-3.8" name="uberclang-3.8" remote="mdalexca" />
+
 </manifest>
