@@ -466,4 +466,7 @@
   <!-- Huawei vendor -->
   <project path="vendor/huawei" name="UBERROMS/vendor_huawei" remote="github" revision="master" />
 
+  <!-- Kernel source -->
+  <project path="kernel/huawei/angler" name="Flash-Kernel/angler" remote="github" revision="release" />
+
 </manifest>
