@@ -326,7 +326,6 @@
   <project path="frameworks/volley" name="platform/frameworks/volley" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/webview" name="platform/frameworks/webview" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" groups="pdk-cw-fs,pdk-fs" />
-  <project path="hardware/akm" name="platform/hardware/akm" />
   <project path="hardware/broadcom/libbt" name="platform/hardware/broadcom/libbt" groups="pdk" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="pdk,broadcom_wlan" />
   <project path="hardware/bsp/intel" name="platform/hardware/bsp/intel" />
@@ -402,10 +401,15 @@
   <project path="pdk" name="platform/pdk" groups="pdk" />
   <project path="platform_testing" name="platform/platform_testing" />
   <project path="prebuilts/android-emulator" name="platform/prebuilts/android-emulator" groups="pdk-fs" clone-depth="1" />
+  <project path="prebuilts/clang/host/linux-x86/sdclang-3.8" name="sdclang-3.8" remote="mdalexca" />
+  <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" groups="pdk" revision="master" />
   <project path="prebuilts/deqp" name="platform/prebuilts/deqp" groups="pdk-fs" />
   <project path="prebuilts/devtools" name="platform/prebuilts/devtools" groups="pdk-fs" />
   <project path="prebuilts/eclipse" name="platform/prebuilts/eclipse" groups="pdk" />
   <project path="prebuilts/eclipse-build-deps" name="platform/prebuilts/eclipse-build-deps" groups="notdefault,eclipse" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-6.2" name="aarch64-linux-android-6.x-kernel-linaro" remote="mdalexca" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="aarch64-linux-android-4.9" remote="mdalexca" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="arm-linux-androideabi-4.9" remote="mdalexca" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" groups="pdk,linux" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" groups="pdk-fs" />
   <project path="prebuilts/gcc/linux-x86/mips/mips64el-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/mips/mips64el-linux-android-4.9" groups="pdk,linux,mips" />
@@ -466,13 +470,5 @@
 
   <!-- Kernel source -->
   <project path="kernel/huawei/angler" name="mdalexca/angler" remote="github" revision="n" />
-
-  <!-- UBER clang -->
-  <project path="prebuilts/clang/host/linux-x86/uber-3.8" name="uberclang-3.8" remote="mdalexca" />
-
-  <!-- UBER tool chains -->
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="arm-linux-androideabi-4.9" remote="mdalexca" />
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-6.2" name="aarch64-linux-android-6.x-kernel-linaro" remote="mdalexca" />
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="aarch64-linux-android-4.9" remote="mdalexca" />
 
 </manifest>
