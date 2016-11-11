@@ -234,7 +234,7 @@
   <project path="external/owasp/sanitizer" name="platform/external/owasp/sanitizer" groups="pdk-fs" />
   <project path="external/parameter-framework" name="platform/external/parameter-framework" groups="pdk-fs" />
   <project path="external/pcre" name="platform/external/pcre" groups="pdk" />
-  <project path="external/pdfium" name="UBERROMS/external_pdfium" groups="pdk" remote="github" revision="master" />
+  <project path="external/pdfium" name="external_pdfium" groups="pdk" remote="uber" />
   <project path="external/piex" name="platform/external/piex" />
   <project path="external/ppp" name="platform/external/ppp" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/proguard" name="platform/external/proguard" groups="pdk" />
@@ -422,13 +422,13 @@
   <project path="prebuilts/maven_repo/android" name="platform/prebuilts/maven_repo/android" groups="pdk-cw-fs,pdk-fs" />
   <project path="prebuilts/misc" name="platform/prebuilts/misc" groups="pdk" />
   <project path="prebuilts/ndk" name="platform/prebuilts/ndk" groups="pdk" />
-  <project path="prebuilts/ninja/linux-x86" name="UBERROMS/prebuilts_ninja_linux-x86" groups="linux,pdk,tradefed" remote="github" revision="master" />
+  <project path="prebuilts/ninja/linux-x86" name="prebuilts_ninja_linux-x86" groups="linux,pdk,tradefed" remote="uber" />
   <project path="prebuilts/python/linux-x86/2.7.5" name="platform/prebuilts/python/linux-x86/2.7.5" groups="linux,pdk,pdk-cw-fs,pdk-fs" />
   <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" groups="pdk" clone-depth="1" />
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs,pdk-fs" />
-  <project path="system/bt" name="platform/system/bt" groups="pdk" />
+  <project path="system/bt" name="system_bt" groups="pdk" remote="uber" />
   <project path="system/ca-certificates" name="platform/system/ca-certificates" groups="pdk" />
   <project path="system/connectivity/apmanager" name="platform/system/connectivity/apmanager" />
   <project path="system/connectivity/dhcp_client" name="platform/system/connectivity/dhcp_client" />
@@ -464,12 +464,10 @@
   <project path="tools/test/connectivity" name="platform/tools/test/connectivity" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
   <project path="vendor/nougat" name="vendor_nougat" remote="nougat" />
+  <project path="vendor/huawei" name="vendor_huawei" remote="uber" />
 
   <!-- Angler device -->
   <project path="device/huawei/angler" name="device_huawei_angler" remote="nougat" />
-
-  <!-- Huawei vendor -->
-  <project path="vendor/huawei" name="UBERROMS/vendor_huawei" remote="github" revision="master" />
 
   <!-- Kernel source -->
   <project path="kernel/huawei/angler" name="Flash-Kernel/angler" remote="github" revision="release" />
