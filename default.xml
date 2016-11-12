@@ -465,14 +465,14 @@
   <project path="device/huawei/angler" name="device_huawei_angler" remote="nougat" />
 
   <!-- Kernel source -->
-  <project path="kernel/huawei/angler" name="Flash-Kernel/angler" remote="github" revision="release" />
+  <project path="kernel/huawei/angler" name="mdalexca/angler" remote="github" revision="n" />
 
   <!-- UBER clang -->
   <project path="prebuilts/clang/host/linux-x86/uber-3.8" name="uberclang-3.8" remote="mdalexca" />
 
   <!-- UBER tool chains -->
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="arm-linux-androideabi-4.9" remote="mdalexca" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-6.2" name="aarch64-linux-android-6.x-kernel-linaro" remote="mdalexca" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="aarch64-linux-android-4.9" remote="mdalexca" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="arm-linux-androideabi-4.9" remote="mdalexca" />
 
 </manifest>
