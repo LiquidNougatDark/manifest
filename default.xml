@@ -407,7 +407,7 @@
   <project path="prebuilts/devtools" name="platform/prebuilts/devtools" groups="pdk-fs" />
   <project path="prebuilts/eclipse" name="platform/prebuilts/eclipse" groups="pdk" />
   <project path="prebuilts/eclipse-build-deps" name="platform/prebuilts/eclipse-build-deps" groups="notdefault,eclipse" />
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-6.2" name="aarch64-linux-android-6.x-kernel-linaro" remote="mdalexca" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-6.2" name="aarch64-linux-android-6.x-kernel" remote="mdalexca" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="aarch64-linux-android-4.9" remote="mdalexca" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="arm-linux-androideabi-4.9" remote="mdalexca" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" groups="pdk,linux" />
