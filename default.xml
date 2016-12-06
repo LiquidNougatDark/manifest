@@ -468,6 +468,6 @@
   <project path="device/huawei/angler" name="device_huawei_angler" remote="nougat" />
 
   <!-- Kernel source -->
-  <project path="kernel/huawei/angler" name="mdalexca/angler" remote="github" revision="n" />
+  <project path="kernel/huawei/angler" name="mdalexca/angler" remote="github" revision="rebasep" />
 
 </manifest>
