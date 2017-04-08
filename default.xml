@@ -476,7 +476,8 @@
   <!-- Angler device -->
   <project path="device/huawei/angler" name="device_huawei_angler" remote="nougat" />
 
-  <!-- Kernel source -->
+  <!-- Kernel sources -->
   <project path="kernel/huawei/angler" name="chadouming/faster-angler" remote="github" revision="master" />
+  <project path="kernel/moto/shamu" name="B14CKB1RD-Kernel/B14CKB1RD_Kernel_N6" remote="github" revision="n7.1" />
 
 </manifest>
