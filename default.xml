@@ -473,8 +473,9 @@
   <project path="vendor/nougat" name="vendor_nougat" remote="nougat" />
   <project path="vendor/huawei" name="vendor_huawei" remote="uber" />
 
-  <!-- Angler device -->
+  <!-- Device setups -->
   <project path="device/huawei/angler" name="device_huawei_angler" remote="nougat" />
+  <project path="device/moto/shamu" name="device_moto_shamu" remote="nougat" />
 
   <!-- Kernel sources -->
   <project path="kernel/huawei/angler" name="chadouming/faster-angler" remote="github" revision="master" />
