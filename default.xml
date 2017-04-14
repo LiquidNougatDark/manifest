@@ -18,7 +18,7 @@
            
   <remote  name="nougatdark"
            revision="ng"
-           fetch="https://github.com/LiquidDark/" />          
+           fetch="https://github.com/LiquidNougatDark/" />          
 
   <remote  name="uber"
            revision="master"
