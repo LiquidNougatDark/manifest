@@ -13,7 +13,7 @@ Initialize Source
 (Assuming you have a valid build environment setup)
 - mkdir nougat (or whatever you want to name the source folder)
 - cd ~/nougat
-- repo init -u https://github.com/LiquidNougat/manifest.git -b ng
+- repo init -u https://github.com/LiquidNougatDark/manifest.git -b ng
 
 Sync Source
 --------------------
@@ -26,6 +26,8 @@ Build Source
 Choose Device
 --------------------
 - lunch nougat_angler-userdebug
+- lunch nougat_shamu-userdebug
+- lunch nougat_bullhead-userdebug
 
 Clean Builds
 --------------------

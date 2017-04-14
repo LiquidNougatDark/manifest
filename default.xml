@@ -15,6 +15,10 @@
   <remote  name="nougat"
            revision="ng"
            fetch="https://github.com/LiquidNougat/" />
+           
+  <remote  name="nougatdark"
+           revision="ng"
+           fetch="https://github.com/LiquidDark/" />          
 
   <remote  name="uber"
            revision="master"
@@ -24,7 +28,7 @@
            remote="aosp"
            sync-j="8" />
 
-  <project path="build" name="build" groups="pdk" remote="nougat" >
+  <project path="build" name="build" groups="pdk" remote="nougatdark" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
@@ -464,18 +468,21 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
   <project path="tools/test/connectivity" name="platform/tools/test/connectivity" groups="pdk" />
-  <project path="vendor/nougat" name="vendor_nougat" remote="nougat" />
+  <project path="vendor/nougat" name="vendor_nougat" remote="nougatdark" />
 
   <!-- Device setups -->
   <project path="device/huawei/angler" name="device_huawei_angler" remote="nougat" />
+  <project path="device/lge/bullhead" name="device_lge_bullhead" remote="nougatdark" />
   <project path="device/moto/shamu" name="device_moto_shamu" remote="nougat" />
 
   <!-- Device vendors -->
   <project path="vendor/huawei" name="vendor_huawei" remote="uber" />
+  <project path="vendor/lge" name="vendor_lge" remote="nougatdark" />
   <project path="vendor/moto" name="vendor_moto" remote="nougat" />
 
   <!-- Kernel sources -->
   <project path="kernel/huawei/angler" name="chadouming/faster-angler" remote="github" revision="master" />
+  <project path="kernel/lge/bullhead" name="DespairFactor/bullhead" remote="github" revision="n" />
   <project path="kernel/moto/shamu" name="B14CKB1RD-Kernel/B14CKB1RD_Kernel_N6" remote="github" revision="n7.1" />
 
 </manifest>
